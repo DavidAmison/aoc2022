@@ -65,7 +65,7 @@ fn main() {
 
     println!("Part 2 answer: {}", answer2);
 }
-
+RGZEHURK
 fn check_cycle(x: i32, cycle: usize) -> i32 {
     if cycle%40 == 20 {
         println!("x at cycle {} is {} -> {}", cycle, x, (cycle as i32)*x);
